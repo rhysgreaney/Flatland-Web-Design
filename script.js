@@ -22,3 +22,5 @@ function createBuzzwordPhrase() {
 
     return  buzz[idx_buz] + " " + action[idx_act] + " " + outcome[idx_out];
 }
+
+console.log(createBuzzwordPhrase)
