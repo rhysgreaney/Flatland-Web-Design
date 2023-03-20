@@ -9,7 +9,6 @@ function clicked() {
     words.innerHTML = msg;
 }
 
-square.addEventListener('click', (event) => clicked());
 
 /*create hover effect */
 square.addEventListener('mouseover', (event) => changeColour ('grey'));
@@ -20,6 +19,8 @@ var words = document.getElementById('words');
 function greeting() {
     words.innerHTML = "Welcome to Flatland <br> I am Square!"
 }
+
+square.addEventListener('click', (event) => clicked());
 
 document.onload = greeting()
 
