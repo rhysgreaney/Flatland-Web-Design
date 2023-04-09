@@ -5,8 +5,9 @@ function changeColour(colour) {
 }
 
 function clicked() {
-    var msg = "Build a<br>" + createBuzzwordPhrase
-    words.innerHTML = msg;
+    /* var msg = "Build a<br>" + createBuzzwordPhrase
+    words.innerHTML = msg; this coding didn't work, went back through tutorial and updated */
+    words.innerHTML = "Build a<br>" + createBuzzwordPhrase();
 }
 
 square.addEventListener('click', (event) => clicked());
