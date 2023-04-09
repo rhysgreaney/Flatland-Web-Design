@@ -4,6 +4,9 @@ function changeColour(colour) {
     square.style.background = colour;
 }
 
+/* function clicked is where my coding was failing, went back through tutorial and updated, as typed below 
+issue was with var msg, now a functioning webpage */
+
 function clicked() {
     /* var msg = "Build a<br>" + createBuzzwordPhrase
     words.innerHTML = msg; this coding didn't work, went back through tutorial and updated */
